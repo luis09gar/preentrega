@@ -1,0 +1,140 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+/*HEADER*/
+
+.logo{
+    width: 5rem;
+}
+
+.fuente{
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    text-transform: uppercase;
+}
+.fuente li  :hover{
+    background-color: whitesmoke;
+    
+}
+
+header{
+    border-bottom: 1px solid aquamarine;
+}
+
+
+body {
+    
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #9BDAFC   ;
+}
+
+ /*carrusel*/
+
+ .imagen {
+  border-radius: 30%;
+  width: 25rem;
+}
+
+.row{
+  margin-top: 50px;
+  
+}
+
+/*INTRO*/
+.colorBtn{
+    background-color: #0453F1;
+    color: black;
+
+}
+
+/*PRODUCTOS*/
+
+.tituloProducto{
+    background-color: white;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1rem;
+    
+}
+
+
+
+.colorBtn{
+  box-shadow: 2px 2px 4px rgba(5, 5, 5, 0.9);
+}
+ .hijoRow{
+  margin-top: 10px;
+  box-shadow: 2px 2px 4px rgba(5, 5, 5, 0.9);
+
+ }
+
+  .colorCabe{
+    color: black;
+    
+  }
+
+  .mergenPro{
+    margin: 10px;
+  }
+
+ 
+/*NOSOTROS*/
+
+.imgNosotros{
+  display: flex;
+  margin-top: 60px;
+  width: 600px;
+  height: 400px;
+  border-radius: 30px;
+  box-shadow: 2px 2px 4px rgba(5, 5, 5, 0.9);
+  
+}
+
+article{
+  margin-top: 45px;
+  margin-left: 50px;
+}
+
+/*sucursal*/
+.sucursal{
+  margin-left: 50px;
+}
+
+.maps{
+  display: flex;
+  justify-content: right;
+  
+}
+
+.fondoSucursal{
+  background-color: #9BDAFC;
+}
+
+.contenedorMasp{
+  background-color: #E3F0F7 ;
+}
+
+/*registro*/
+
+.btnRegistro  {
+text-decoration: none;
+
+}
+
+.bordeBtn{
+border: 2px solid black;
+}
+
+.imgRegistro{
+    background-image: url('../img/imgregistro.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
